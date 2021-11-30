@@ -1,0 +1,104 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+div.ant-steps-item-container{
+  width:200px;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+#waterMark {
+  /* border: 1px solid #f00; */
+  position: absolute;
+  top: -188px;
+  left: 0;
+  /* transform: rotate(30deg) */
+}
+canvas {
+  /* border: 1px solid #ff0; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+span.show{
+  color: grey;
+  margin: 10px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header h1{
+  text-align: center;
+  float:inline-start;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+body{
+  margin: 0px;
+  padding: 0;
+  font-size: 16px;
+  overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+div#root{
+  width:100%;
+  height:100%;
+  display: flex;
+}
+div#step {
+  
+  width: 200px;
+  height: 100%;
+
+  /* margin: auto;
+  position: absolute;
+  margin-left: 50px; */
+  flex: none;
+}
+div#anchor{
+  position: fixed ! important; left: 200px; top: 100px;
+  width: 100px;
+  height: 100%;
+  flex: none;
+}
+div#form {
+  margin: 0 50px 0 200px;
+  min-width: 200px;
+  height: 100%;
+  /* overflow:hidden; */
+  flex: 1;
+}
+div.ant-steps{
+  position: fixed ! important; 
+  left: 50px; 
+  top: 100px;
+  height: 80%;
+  width: 200px;
+}
+
+div.ant-steps-item{
+  width: 200px;
+} 
+#btn-div{
+  margin: auto;
+  width: 10%;
+}
+.ant-form-large .ant-form-item-label > label{
+  /* width: 210px; */
+  display: inline;
+  white-space: pre-line;
+  font-size: 18px;
+  font-weight: 700;
+  /* text-align:left; */
+}
